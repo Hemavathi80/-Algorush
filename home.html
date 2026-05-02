@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Safety App</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <style>
+        #map { height: 400px; width: 100%; }
+        .danger { color: red; font-weight: bold; }
+        .caution { color: orange; font-weight: bold; }
+        .safe { color: green; font-weight: bold; }
+        .pulse { animation: pulse 1s infinite; }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.4; }
+            100% { opacity: 1; }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h2>Safety Monitoring Dashboard</h2>
+
+<p id="coords">Select location</p>
+
+<div id="map"></div>
+
+<br>
+
+<button onclick="startGPS()">Use Live GPS</button>
+<button onclick="fakeCall()">Fake Call</button>
+<button onclick="sos()">SOS</button>
+
+<h3>Risk Score: <span id="score">0</span></h3>
+<h3>Status: <span id="status">--</span></h3>
+
+<ul id="reasons"></ul>
+
+<p id="movement"></p>
+
+<!-- 🔊 Ringtone -->
+<audio id="ringtone"
+       src="{{ url_for('static', filename='ringtone.mp3') }}"
+       loop></audio>
+
+<!-- JS -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+state,city,lat,lon,crime_rate
+Delhi,New Delhi,28.6139,77.2090,950
+Delhi,Delhi Cantt,28.5900,77.1200,720
+Maharashtra,Mumbai,19.0760,72.8777,880
+Maharashtra,Pune,18.5204,73.8567,640
+Karnataka,Bengaluru,12.9716,77.5946,610
+Karnataka,Mysuru,12.2958,76.6394,320
+Tamil Nadu,Chennai,13.0827,80.2707,700
+Tamil Nadu,Coimbatore,11.0168,76.9558,410
+West Bengal,Kolkata,22.5726,88.3639,760
+West Bengal,Siliguri,26.7271,88.3953,390
+Telangana,Hyderabad,17.3850,78.4867,690
+Telangana,Warangal,17.9689,79.5941,350
+Uttar Pradesh,Lucknow,26.8467,80.9462,680
+Uttar Pradesh,Kanpur,26.4499,80.3319,820
+Rajasthan,Jaipur,26.9124,75.7873,540
+Rajasthan,Jodhpur,26.2389,73.0243,430
+Gujarat,Ahmedabad,23.0225,72.5714,500
+Gujarat,Gandhinagar,23.2156,72.6369,300
+Kerala,Thiruvananthapuram,8.5241,76.9366,260
+Kerala,Kochi,9.9312,76.2673,240
+Punjab,Chandigarh,30.7333,76.7794,420
+Haryana,Gurugram,28.4595,77.0266,890
+Bihar,Patna,25.5941,85.1376,780
+Odisha,Bhubaneswar,20.2961,85.8245,450
+Madhya Pradesh,Bhopal,23.2599,77.4126,600
+Jharkhand,Ranchi,23.3441,85.3096,520
+Assam,Guwahati,26.1445,91.7362,480
